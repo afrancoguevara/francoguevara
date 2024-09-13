@@ -3,8 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
     color: #555555;
-    background-color: #232323;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    background-color: #808080;
+    background-image: url("img/green-cup.png");
+
 }
 
 p {
@@ -62,24 +63,19 @@ h1 {
     margin-left: 280px;
     overflow-x: auto;
     padding: 15px;
-    /*scroll-snap-type: x mandatory;*/
     overflow-x: auto;
-    /*scroll-behavior: smooth;*/
 }
 
 .tira {
     width: 2000px;
     display:flex;
     flex-direction: row;
-    /*justify-content: center;*/
     align-items: center;
     text-align: center;
-    /*scroll-snap-align: start;*/
 }
 
 .colcontent {
     min-width: 100%;
-    /*scroll-snap-align: start;*/
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -88,7 +84,6 @@ h1 {
 
 .colcontent1 {
     min-width: 100%;
-    /*scroll-snap-align: start;*/
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -103,13 +98,19 @@ h1 {
 h1.titulo {
     font-size: 5rem;
     line-height: 3rem;
-    color: #ad2020;
+    color: #333333;
 }
 
 .titulo span {
     font-size: 1.7rem;
     font-family: "Cutive Mono", monospace;
     color: #ffffff;
+}
+
+span.glyph {
+    font-size: 5rem;
+    line-height: 3rem;
+    color: #f31f1f;
 }
 
 .footer {
@@ -141,8 +142,8 @@ h1.titulo {
 /*=====================================================================scrollbar====*/
 .scroll-container {
     overflow-x: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
