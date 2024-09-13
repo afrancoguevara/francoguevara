@@ -3,8 +3,8 @@ body, html {
     margin: 0;
     padding: 0;
     color: #555555;
-    background-color: #FAF9F6;
-    background-image: url("img/clean.png");
+    background-color: #232323;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 
 p {
@@ -15,15 +15,13 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 800;
 }
 
 b, strong, a {
     font-family: "Cutive", serif;
     font-weight: 600;
-    font-style: normal;
 }
 
 h1 {
@@ -103,13 +101,15 @@ h1 {
 }
 
 h1.titulo {
-    font-size: 2.4rem;
-    text-align: right;
-    line-height: 1rem;
+    font-size: 5rem;
+    line-height: 3rem;
+    color: #ad2020;
 }
 
-.titulo p {
+.titulo span {
     font-size: 1.7rem;
+    font-family: "Cutive Mono", monospace;
+    color: #ffffff;
 }
 
 .footer {
